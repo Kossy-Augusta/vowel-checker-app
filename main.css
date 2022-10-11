@@ -1,0 +1,92 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.section{
+ padding:5rem;
+ 
+}
+.section-center{
+ width: 85vw;
+ background: #eff0f3;
+ margin: 0 auto;
+ max-width: 35rem;
+ margin-top:8rem ;
+ border-radius: 3px;
+}
+@media screen and (min-width: 700px){
+ .section-center{
+  width: 90vw;
+ }
+ .clear-btn,.submit-btn{
+  margin-right: 4px;
+ }
+}
+
+.title{
+ margin-bottom: 2rem;
+ padding:1rem 0 0.75rem 0.75rem;
+ text-align: center;
+ color:#0d0d0d; 
+}
+.title h2{
+ font-size: 2rem;
+ text-transform: capitalize;
+ font-family: serif;
+}
+.form-control{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 2rem;
+}
+.input{
+ flex: 0 0 300px;
+
+ font-size:2rem;
+ border: transparent;
+ border-radius: 3px;
+ color: #2a2a2a;
+
+
+}
+.input::placeholder{
+ text-transform: capitalize;
+ font-size: 1rem;
+ 
+}
+.submit-btn{
+ flex: 0 0 50px;
+ font-size: 1rem;
+ text-transform: capitalize;
+ border: transparent;
+ margin-right: 2px;
+ border-radius: 3px;
+ color: #0d0d0d;
+ background: #ff8e3c;
+ font-weight: 600;
+ font-family: sans-serif;
+ cursor: pointer;
+}
+.clear-btn{
+ flex: 0 0 50px;
+ font-size: 1rem;
+ text-transform: capitalize;
+ border: transparent;
+ margin-left: 2px;
+ border-radius: 3px;
+ color: #0d0d0d;
+ background: #ff8e3c;
+ font-weight: 600;
+ font-family: sans-serif;
+ cursor: pointer;
+}
+.result{
+ padding: 1rem;
+ text-align: center;
+ font-size: 1.3rem;
+ font-weight: 600;
+ color: #2a2a2a;
+ text-transform: capitalize;
+
+}
